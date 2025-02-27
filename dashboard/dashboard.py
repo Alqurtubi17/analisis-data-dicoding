@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Alqurtubi17/analisis-data-dicoding/refs/heads/main/dashboard/main_data.csv")
 df['dteday'] = pd.to_datetime(df['dteday'])  # Convert to datetime
 
 # Sidebar for date range selection
